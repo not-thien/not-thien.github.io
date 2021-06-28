@@ -1,0 +1,141 @@
+baseURL = "https://not-thien.github.io"
+languageCode = "en-us"
+theme = "sada"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+    name = "Information for the Concerned"
+    title = "Thien's Portfolio"
+    author = "Thien Nguyen"
+    description = "Unit Testing since 2001"
+    copyright = "© 2021 Thienager LLC"
+    theme = "dark" # `dark` or `light`
+    useResources = false
+
+    # Profile section
+    [params.profile]
+        name = "Thien Nguyen"
+        photo = "images/creepy.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/not-thien/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/not-thien"
+        title = "GitHub"
+		
+		[[params.social.list]]
+        icon = "fab fa-instagram"
+        url = "https://www.instagram.com/theadventuresofthienthien/"
+        title = "Instagram"
+
+        [[params.social.list]]
+        icon = "fab fa-facebook"
+        url = "https://www.facebook.com/theadventuresofthienthien/"
+        title = "Facebook"
+			
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Bachelor of Computer Science"
+        college = "University of Minnesota - Twin Cties"
+        dates = "2020 - 2023"
+        thesis_title = "Historical Propensities of Human-Computer Interaction and Youth Culture"
+        thesis_link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+				
+        [[params.language.list]]
+        language = "Vietnamese"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Chinese"
+        level = "Novice"
+
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Novice"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Volleyball"
+		
+		[[params.hobbies.list]]
+        interest = "Cooking"
+
+        [[params.hobbies.list]]
+        interest = "Language Study"
+
+        [[params.hobbies.list]]
+        interest = "Gamer Girls"
+
+    [params.aboutme]
+        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Job Number 1"
+        dates = "2018 - *Present*"
+		link = "#"
+        company = "Company name 1"
+
+        [[params.jobs.list]]
+        position = "Job Number 2"
+        dates = "2016 - 2018"
+		link = "#"
+        company = "Company name 2"
+        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    # Projects section
+    [params.projects]
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "Awesome Project 1"
+        url = "#"
+        description = "Description of the *awesome* project 1"
+		
+		[[params.projects.list]]
+        title = "Awesome Project 2"
+        url = "#"
+        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Skill 1, Skill 2"
+        skillrating = 95 # out of 100
+                
+        [[params.skills.list]]
+        skill = "Skill 3"
+        skillrating = 90
+		
+        [[params.skills.list]]
+        skill = "Skill 4"
+        skillrating = 80
