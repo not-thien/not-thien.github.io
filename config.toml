@@ -91,51 +91,23 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         interest = "Gamer Girls"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "Born and raised in Minnesota, USA but 100% Vietnamese American. I like the power of code and the planet I live on. So, I plan on developing climate solution applications and sustainability-focused products. I'm just tryna give my grandkids a better world than the one I inherited. Also, pineapples belong on pizza."
 
     # Experiences section
     [params.experiences]
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Job Number 1"
-        dates = "2018 - *Present*"
-		link = "#"
-        company = "Company name 1"
+        position = "Undergraduate Researcher"
+        dates = "May 2021 - *Present*"
+        company = "Institute of the Environment - UMN"
+		link = "http://environment.umn.edu/discovery/gli/"
+        details = "Cooperate with [Dr. James Gerber](http://environment.umn.edu/staff/james-gerber/) and [Dr. Paul West](http://environment.umn.edu/staff/paul-west/) in an [USAID project](https://www.arcgis.com/apps/Cascade/index.html?appid=dd7bd5aeb9344725a4f9d852e4056d9e) to analyze soil degradation in Senegal. Write scripts and algorithms with **Javascript and Python API in Google Earth Engine** for satellite map compsition and data analysis."
 
         [[params.jobs.list]]
-        position = "Job Number 2"
-        dates = "2016 - 2018"
-		link = "#"
-        company = "Company name 2"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        position = "Lab Member"
+        dates = "Sept 2020 - May 2021"
+		link = "https://sase-labs-2021.github.io/"
+        company = "Society of Scientists & Engineers - Labs"
+        details = "**Lead an interdisciplinary** subteam of five students in the [SASE Labs 2021 project](https://github.com/SASE-Labs-2021/gopher-a-bite/tree/master/src), honing leadership skills and learning the necessary tools as we went. Developed a web app using **ReactJS** frontend with **Flash** backend, with integrated map navigation, user and restaurant **database,** and **machine learning recommendation** system"
 
-    # Projects section
-    [params.projects]
-        title = "Projects"
-
-        [[params.projects.list]]
-        title = "Awesome Project 1"
-        url = "#"
-        description = "Description of the *awesome* project 1"
-		
-		[[params.projects.list]]
-        title = "Awesome Project 2"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
-    # Skills section
-    [params.skills]
-        title = "Skills"
-
-        [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
-        skillrating = 95 # out of 100
-                
-        [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
-		
-        [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
