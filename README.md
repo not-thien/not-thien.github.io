@@ -9,3 +9,8 @@
 [Geospatial Analysis Scripts for IonE UMN](https://github.com/not-thien/senegal-EVI)
 
 [Fullstack Tutorials from class](https://github.umn.edu/umn-csci-3081-s22/shared-upstream)
+
+[Auto Maze Generator](https://github.com/not-thien/project4)
+
+[Battleships Boardgame Simulator](https://github.com/not-thien/1933proj2)
+
